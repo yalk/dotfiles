@@ -261,6 +261,12 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
+    <!--Keybindings for lighthouse-->
+    <keybind key="W-space">
+      <action name="Execute">
+        <command>~/Scripts/lighthousesh</command>
+      </action>
+    </keybind>
     <!--Keybindings for tiling -->
     <keybind key="C-W-KP_8">
       <action name="Execute">
