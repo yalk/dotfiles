@@ -21,11 +21,13 @@ case ${TERM} in
     ;;
 esac
 
+#natural scroll
+xinput set-button-map 12 1 2 3 5 4 6 7 8 9 10 11 12
+
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 alias ls='ls --color=auto'
 alias scrot5='scrot -d 5 -c ~/Pictures/screenshots/%b%d::%H%M%S.png'
 alias scrotnow='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
 alias upload='imgurbash'
 alias lighthousesh='lighthouse | sh'
-
 
